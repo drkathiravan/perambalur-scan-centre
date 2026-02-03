@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Kathiravan Diagnostic & Scan Centre | Perambalur</title>
+  <meta name="description" content="Dr. Kathiravan Diagnostic & Scan Centre in Perambalur offering Ultrasound, X-Ray, CT Scan, MRI, Doppler and Radiology services.">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      color: #222;
+    }
+
+    header {
+      background: #0b5ed7;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      font-size: 14px;
+    }
+
+    nav {
+      background: #084298;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #0b5ed7;
+      margin-top: 0;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .service-box {
+      background: #f1f5ff;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .contact-box {
+      background: #e9f1ff;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      line-height: 1.8;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #0b5ed7;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .btn:hover {
+      background: #084298;
+    }
+
+    footer {
+      background: #0b5ed7;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+    }
+
+    .map {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Dr. Kathiravan Diagnostic & Scan Centre</h1>
+    <p>Trusted Diagnostic Services in Perambalur</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#hours">Hours</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Dr. Kathiravan Diagnostic & Scan Centre is a leading diagnostic centre in Perambalur providing
+        high-quality medical imaging and radiology services. With experienced doctors and modern
+        equipment, we ensure accurate, fast, and reliable reports for better medical care.
+      </p>
+      <p>
+        We follow strict hygiene and safety standards and focus on patient comfort and satisfaction.
+        Our centre is trusted by doctors, hospitals, and families across Perambalur.
+      </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-box">Ultrasound Scan</div>
+        <div class="service-box">Digital X-Ray</div>
+        <div class="service-box">CT Scan</div>
+        <div class="service-box">MRI Scan</div>
+        <div class="service-box">Doppler Scan</div>
+        <div class="service-box">Pregnancy Scan</div>
+        <div class="service-box">Abdomen Scan</div>
+        <div class="service-box">Thyroid Scan</div>
+        <div class="service-box">Radiology Reporting</div>
+      </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section id="hours">
+      <h2>Working Hours</h2>
+      <p>
+        Monday to Saturday: 10:00 AM – 2:00 PM | 4:00 PM – 8:30 PM<br>
+        Sunday: Closed
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-box">
+        <p><strong>Phone:</strong> 08190 078065</p>
+        <p><strong>WhatsApp:</strong> 08190 078065</p>
+        <p><strong>Location:</strong> Cherry English Academy Road, Sungu Pettai, Perambalur, Tamil Nadu</p>
+        <a class="btn" href="https://wa.me/918190078065" target="_blank">Book on WhatsApp</a>
+      </div>
+
+      <iframe
+        class="map"
+        src="https://www.google.com/maps?q=Perambalur%20scan%20centre&output=embed"
+        loading="lazy">
+      </iframe>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Dr. Kathiravan Diagnostic & Scan Centre | Perambalur</p>
+    <p>All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
